@@ -1,0 +1,30 @@
+﻿flag	meaning			from		to
+'i'	giving id		server		client
+
+'d'	sending player		client		server
+
+'s'	start match		client		server
+
+'m'	match started		server		client
+
+'b' 	peer player busy	server		client
+
+'f' 	match not started	server		client
+
+'r'	requstplayerslist	client		server
+
+'p'	sendingplayerlist	server		client
+
+'u'	updating status		client		server
+
+'u'	making move		client		client
+
+'t' 	terminate connection	client		server
+
+'t' 	terminate connection	client		client
+
+'c' 	decline invitation 	client		client
+
+'a' 	accept invitation	client 		client
+
+'n'	request player info	client		server
